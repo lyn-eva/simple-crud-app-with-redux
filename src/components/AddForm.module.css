@@ -1,0 +1,27 @@
+.ctr {
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  gap: 1rem;
+  top: 2rem;
+}
+
+.ctr input {
+  display: inline-block;
+  height: 1.5rem;
+  font-size: 1rem;
+  padding-inline: 1rem;
+}
+
+.ctr input[type='submit'] {
+  height: 1.9rem;
+  background-color: orange;
+  border: none;
+  cursor: pointer;
+}
+
+.ctr input[type='submit']:hover {
+  background-color: coral;
+}

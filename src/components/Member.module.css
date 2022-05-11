@@ -1,0 +1,39 @@
+.ctr {
+  border: 2px solid #444;
+  padding: 0 1rem;
+  box-shadow: 0 4px 4px #44444421;
+  border-radius: 5px;
+  padding-bottom: 1rem;
+  margin: 0 auto 1rem;
+  width: min(18rem, 90%);
+}
+
+.ctr form div {
+  margin-bottom: 0.5rem;
+}
+.ctr input,
+.ctr button {
+  width: 48%;
+  padding-inline: 0.4em;
+  box-sizing: border-box;
+}
+
+.ctr input + input,
+.ctr button + button {
+  margin-left: 4%;
+}
+
+.ctr button {
+  background-color: orange;
+  border: none;
+  height: 1.5rem;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.ctr button:last-of-type {
+  background-color: red;
+  color: #fff;
+}
+.ctr button:hover {
+  background-color: cadetblue;
+}
